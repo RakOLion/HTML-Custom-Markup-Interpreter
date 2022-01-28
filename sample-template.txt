@@ -1,0 +1,17 @@
+@Title
+
+#Title
+
+##1.1 Subheading
+
+This is some **sample** text
+This is some __sample__ inline code `[python]print("Hi")`
+
+```[java]
+System.out.println("Testing")
+```
+
+##1.2 Subheading
+This is some sample text
+
+[i]/img/custom-markup-2.png
