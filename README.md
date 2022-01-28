@@ -21,4 +21,4 @@ You can run the interpreter with the following command in your project directory
 
 The css file I created, when paired with the output HTML file from the interpreter, produces an ouput which looks something like this. Customize your own page how you see fit.
 
-<img width="894" alt="post_screenshot" src="https://user-images.githubusercontent.com/42822671/151635817-e391134a-049d-4ecf-80b9-0e6e2e3178fa.png">
+<img width="633" alt="post_screenshot" src="https://user-images.githubusercontent.com/42822671/151635817-e391134a-049d-4ecf-80b9-0e6e2e3178fa.png">
