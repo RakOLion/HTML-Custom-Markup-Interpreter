@@ -1,4 +1,4 @@
-# HTML-Custom-Markup-Interpreter-
+# HTML-Custom-Markup-Interpreter
 
 Simple interpreter to translate a custom markup script into HTML code for a blog post
 
