@@ -13,3 +13,7 @@ Import the .udl file as a custom language in Notepad++ (Language > User Defined 
 Try opening the sample template included within the project files. Your window should look something like this.
 
 <img width="633" alt="udl_screenshot" src="https://user-images.githubusercontent.com/42822671/151635252-19f0fc38-659d-4037-ad37-2569e5d3a837.png">
+
+You can run the interpreter with the following command in your project directory.
+
+```python interpreter.py [infile.txt] [outfile.html]```
