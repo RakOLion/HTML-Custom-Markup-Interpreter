@@ -10,7 +10,7 @@ Simple interpreter to translate a custom markup script into HTML code for a blog
 ## Usage
 Import the .udl file as a custom language in Notepad++ (Language > User Defined Language > Define your language > Import). 
 
-Try opening the sample template included within the project files. Your window should look something like this.
+Try opening the sample template included within the project files. Your window should look something like this (you might have to change your Notepad theme to Monokai with Settings > Style Configurator).
 
 <img width="633" alt="udl_screenshot" src="https://user-images.githubusercontent.com/42822671/151635252-19f0fc38-659d-4037-ad37-2569e5d3a837.png">
 
