@@ -5,7 +5,8 @@ Simple interpreter to translate a custom markup script into HTML code for a blog
 ## Installation
 1. Download the files for the project.
 2. Install required dependencies (ideally within a virtual environment - [Tutorial](https://docs.python.org/3/tutorial/venv.html)).
-3. (Optional) Install Notepad++ and import the .udl file for custom syntax highlighting
+3. Create a stylesheet for your end-page and install prism.js (for code blocks). Place these within your project directory and (if necessary) modify the prefix string to reference the correct file path. 
+4. (Optional) Install Notepad++ and import the .udl file for custom syntax highlighting.
 
 ## Usage
 Import the .udl file as a custom language in Notepad++ (Language > User Defined Language > Define your language > Import). 
@@ -17,3 +18,7 @@ Try opening the sample template included within the project files. Your window s
 You can run the interpreter with the following command in your project directory.
 
 ```python interpreter.py [infile.txt] [outfile.html]```
+
+The css file I created, when paired with the output HTML file from the interpreter, produces an ouput which looks something like this. Customize your own page how you see fit.
+
+<img width="894" alt="post_screenshot" src="https://user-images.githubusercontent.com/42822671/151635817-e391134a-049d-4ecf-80b9-0e6e2e3178fa.png">
