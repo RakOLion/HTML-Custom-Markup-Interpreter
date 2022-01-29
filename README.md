@@ -24,4 +24,4 @@ The css file I created, when paired with the output HTML file from the interpret
 <img width="633" alt="post_screenshot" src="https://user-images.githubusercontent.com/42822671/151635817-e391134a-049d-4ecf-80b9-0e6e2e3178fa.png">
 
 ## License
-See the license [here](LICENSE.md).
+See the license [here](LICENSE).
