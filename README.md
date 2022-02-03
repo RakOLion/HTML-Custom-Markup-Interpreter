@@ -6,7 +6,7 @@ Simple interpreter to translate a custom markup script into HTML code for a blog
 1. Download the files for the project.
 2. Install required dependencies (ideally within a virtual environment - [Tutorial](https://docs.python.org/3/tutorial/venv.html)).
 3. Create a stylesheet for your end-page and install prism.js (for code blocks). Place these within your project directory and (if necessary) modify the prefix string to reference the correct file path. 
-4. (Optional) Install Notepad++ and import the [.udl file](blog-markdown-formatting.udl) file for custom syntax highlighting.
+4. (Optional) Install Notepad++ and import the [.udl file](blog-markdown-formatting.udl) file provided for custom syntax highlighting.
 
 ## Usage
 Import the [.udl file](blog-markdown-formatting.udl) as a custom language in Notepad++ (Language > User Defined Language > Define your language > Import). 
