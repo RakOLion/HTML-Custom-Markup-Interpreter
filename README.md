@@ -17,7 +17,7 @@ Try opening the [sample template](sample-template.txt) included within the proje
 
 You can run the interpreter with the following command in your project directory.
 
-```python interpreter.py [infile.txt] [outfile.html]```
+```python main.py [infile.txt] [outfile.html]```
 
 The css file I created, when paired with the output HTML file from the interpreter, produces an ouput which looks something like this. Customize your own page how you see fit.
 
