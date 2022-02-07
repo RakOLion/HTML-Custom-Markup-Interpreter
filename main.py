@@ -2,7 +2,7 @@ import re
 import sys
 
 if len(sys.argv) != 3:
-    print("Invalid argument:\nUse >> python interpreter.py [infile.txt] [outfile.html]")
+    print("Invalid argument:\nUse >> python main.py [infile.txt] [outfile.html]")
     sys.exit()
 path_in = sys.argv[1]
 path_out =  sys.argv[2]
