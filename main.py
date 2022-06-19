@@ -2,7 +2,7 @@ import re
 import sys
 
 if len(sys.argv) != 3:
-    print("Invalid argument:\nUse >> python main.py [infile.txt] [outfile.html]")
+    print("Invalid argument:\nUse >> python interpreter.py [infile.txt] [outfile.html]")
     sys.exit()
 path_in = sys.argv[1]
 path_out =  sys.argv[2]
@@ -14,16 +14,19 @@ pre = '''<!DOCTYPE html>
   <head>  
     <title>%s</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/styles.css">
-    <link href="/prism/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="prism/prism.css" rel="stylesheet" />
   </head>
 <body>
 <article>
+  <a href="/index" class="home-button">
+    <img src = "img/back-arrow.svg" style="width:30px;height:30px;"></img></a>
+
 '''
 
 suf = '''</article>
 <footer><p>Made by Rally Lin</p></footer>
-<script src="/prism/prism.js"></script>
+<script src="prism/prism.js"></script>
 </body>
 </html>
 '''
